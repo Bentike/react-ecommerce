@@ -49,8 +49,7 @@ export default class MyApp extends React.Component {
                  onError={onError} 
                  onSuccess={onSuccess} 
                  onCancel={onCancel} 
-
-                 />
+             />
         );
     }
 }

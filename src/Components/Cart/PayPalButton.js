@@ -1,11 +1,11 @@
 import React from 'react';
-import PaypalExpressBtn from 'react-paypal-express-checkout';
+import PayPalExpressBtn from 'react-paypal-express-checkout';
  
 export default class MyApp extends React.Component {
     render() {
         const onSuccess = (payment) => {
             // Congratulation, it came here means everything's fine!
-            		console.log("The payment was succeeded!", payment);
+            		console.log("The payment was successful!", payment);
                     // You can bind the "payment" object's value to your state or props or whatever here, please see below for sample returned data
                     this.props.clearCart()
                     this.props.history.push('/')
@@ -31,7 +31,7 @@ export default class MyApp extends React.Component {
         // Document on Paypal's currency code: https://developer.paypal.com/docs/classic/api/currency_codes/
  
         const client = {
-            sandbox: process.env.REACT_APP_APP_ID ,
+            sandbox: 'AYwQL5IKaVgoI2z-x66s6BCVtQHzD_RNwjwFaQzXF8KJ3CJLeDu4eOVUAqCJRMCRPkYOxlRi9p5qK7di' ,
             production: 'YOUR-PRODUCTION-APP-ID',
         }
         // In order to get production's app-ID, you will have to send your app to Paypal for approval first
@@ -42,7 +42,7 @@ export default class MyApp extends React.Component {
  
         // NB. You can also have many Paypal express checkout buttons on page, just pass in the correct amount and they will work!
         return (
-            <PaypalExpressBtn 
+            <PayPalExpressBtn 
                  env={env}
                  client={client} 
                  currency={currency} 

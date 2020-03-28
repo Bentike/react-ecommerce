@@ -1,6 +1,6 @@
 import React from 'react'
 import {Link} from 'react-router-dom'
-import MyApp from './PayPalButton'
+import MyApp from './PaypalButton'
 export default class ClassTotals extends React.Component{
     render(){
         const {cartSubTotal, cartTax, cartTotal, clearCart} = this.props.value

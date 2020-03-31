@@ -30,7 +30,7 @@ export default class MyApp extends React.Component {
         // Document on Paypal's currency code: https://developer.paypal.com/docs/classic/api/currency_codes/
  
         const client = {
-            sandbox: 'ATwPUqYMdRDLhljS6cg8O5O8BTlhKRK0lCGeH231-l9FVhnX3hpnkvn3hN1JEivasVzBcCg6V2Vn8iXk',
+            sandbox: 'AUT7-vBSgky5sMVA88N0DHEEqnrPgq3_WIW8G6I0wEVqnwVI9c6D8CDA4YoXF9lEsF2NqbzV7FZbEj0B',
             production: 'YOUR-PRODUCTION-APP-ID',
         }
         // In order to get production's app-ID, you will have to send your app to Paypal for approval first
@@ -54,5 +54,6 @@ export default class MyApp extends React.Component {
     }
 }
 
-//REACT_APP_APP_ID = ATwPUqYMdRDLhljS6cg8O5O8BTlhKRK0lCGeH231-l9FVhnX3hpnkvn3hN1JEivasVzBcCg6V2Vn8iXk
-//Sandbox password = 6Lg*Dqq3
+//REACT_APP_APP_ID = AUT7-vBSgky5sMVA88N0DHEEqnrPgq3_WIW8G6I0wEVqnwVI9c6D8CDA4YoXF9lEsF2NqbzV7FZbEj0B
+//Sandbox password = X!3Z^c*&
+//mail = bentunji@example.business.com

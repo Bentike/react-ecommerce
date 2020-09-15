@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/Bentike/react-ecommerce/static/css/main.82b0f704.chunk.css",
+    "main.js": "/Bentike/react-ecommerce/static/js/main.c3fd2f9e.chunk.js",
+    "main.js.map": "/Bentike/react-ecommerce/static/js/main.c3fd2f9e.chunk.js.map",
+    "runtime-main.js": "/Bentike/react-ecommerce/static/js/runtime-main.78ffb895.js",
+    "runtime-main.js.map": "/Bentike/react-ecommerce/static/js/runtime-main.78ffb895.js.map",
+    "static/css/2.de424728.chunk.css": "/Bentike/react-ecommerce/static/css/2.de424728.chunk.css",
+    "static/js/2.84e88514.chunk.js": "/Bentike/react-ecommerce/static/js/2.84e88514.chunk.js",
+    "static/js/2.84e88514.chunk.js.map": "/Bentike/react-ecommerce/static/js/2.84e88514.chunk.js.map",
+    "index.html": "/Bentike/react-ecommerce/index.html",
+    "precache-manifest.17533cbfad17d775bf3b3d6b2be5ad52.js": "/Bentike/react-ecommerce/precache-manifest.17533cbfad17d775bf3b3d6b2be5ad52.js",
+    "service-worker.js": "/Bentike/react-ecommerce/service-worker.js",
+    "static/css/2.de424728.chunk.css.map": "/Bentike/react-ecommerce/static/css/2.de424728.chunk.css.map",
+    "static/css/main.82b0f704.chunk.css.map": "/Bentike/react-ecommerce/static/css/main.82b0f704.chunk.css.map",
+    "static/js/2.84e88514.chunk.js.LICENSE.txt": "/Bentike/react-ecommerce/static/js/2.84e88514.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.78ffb895.js",
+    "static/css/2.de424728.chunk.css",
+    "static/js/2.84e88514.chunk.js",
+    "static/css/main.82b0f704.chunk.css",
+    "static/js/main.c3fd2f9e.chunk.js"
+  ]
+}

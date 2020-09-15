@@ -51,7 +51,8 @@ class ProductProvider extends Component{
                 products : tempProduct,
                 cart : [...this.state.cart, product] 
             }
-        }, () => {this.addTotal()}
+        },
+         () => {this.addTotal()}
       )
     }
     modalOpen = (id) => {

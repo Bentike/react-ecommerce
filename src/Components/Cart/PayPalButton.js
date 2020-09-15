@@ -31,7 +31,7 @@ export default class MyApp extends React.Component {
  
         const client = {
             sandbox: 'AbjAvsgToDGaGFqy3kih4ah0V-F-fsKZRbSJHmhhUpL_oluod2KxN85F2mdecMP9vqYYexx0j9zy7Kpr',
-            production: 'YOUR-PRODUCTION-APP-ID',
+            production: 'AbjAvsgToDGaGFqy3kih4ah0V-F-fsKZRbSJHmhhUpL_oluod2KxN85F2mdecMP9vqYYexx0j9zy7Kpr',
         }
         // In order to get production's app-ID, you will have to send your app to Paypal for approval first
         // For sandbox app-ID (after logging into your developer account, please locate the "REST API apps" section, click "Create App"):
